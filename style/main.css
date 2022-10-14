@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.btn {
+  height: 48px;
+  width: 128px;
+  border-radius: 0;
+  background: #b45f4d;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fff;
+  border: 3px solid #b45f4d;
+  color: black;
+}
+
+/* header */
+
+header {
+  background: #b36050;
+  padding: 10px 9px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #f1d3b9;
+}
+
+/* nav */
+
+nav {
+  padding: 5px 0;
+  background: #f6f4ec;
+  height: 71px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar > * {
+  float: left;
+}
+
+.nav-list {
+  list-style-type: none;
+  width: 40%;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 21px;
+  color: #b4604d;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+.active {
+  color: #000;
+}
+
+
+.nav-link:active {
+  color: red;
+}
+
+.logo {
+  width: 20%;
+  text-align: center;
+}
+
+.account {
+  width: 40%;
+  text-align: right;
+  color: #b45f4d;
+  padding: 20px;
+}
+
+.account > * {
+  vertical-align: middle;
+}
+
+.account a {
+  color: #b45f4d;
+}
+
+/* ---- home ----- */
+
+#home {
+  position: relative;
+}
+
+#home img {
+  width: 100%;
+}
+
+.home-btn {
+  position: absolute;
+  left: calc(50% - 64px);
+  bottom: 65px;
+}
+
+/* info */
+
+#info {
+  padding: 70px;
+  background: #a9ae8d;
+  color: #f6f4ec;
+  margin-top: -4px;
+}
+
+.info-container h2 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.info-container p {
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 64px;
+  margin: 15px 0 30px;
+}
+
+/* products */
+
+#products {
+  padding: 30px;
+}
+
+#products h1 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 39px;
+  color: #b45f4d;
+  margin-top: 10px;
+}
+
+.product-card {
+  display: inline-block;
+  width: 33.333%;
+  padding: 40px;
+  color: #b45f4d;
+}
+
+.product-card h2 {
+  margin: 10px 0 7px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card + .product-card {
+  margin-left: -5px;
+}
+
+/* about */
+
+#about {
+  background: #f1d3b9;
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+
+.about-container {
+  position: relative;
+}
+
+.about-left {
+  position: absolute;
+  bottom: -36px;
+}
+
+.about-middle {
+  margin-left: 83px;
+}
+
+.about-box {
+  background: #f8f8f8;
+  padding: 50px;
+  color: #b45f4d;
+  width: 520px;
+  position: absolute;
+  top: 225px;
+  right: 235px;
+}
+
+.about-box h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 58px;
+  margin-bottom: 25px;
+}
+
+.about-box p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
